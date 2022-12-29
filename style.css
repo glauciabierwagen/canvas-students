@@ -100,24 +100,6 @@ main {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 760px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  padding: 12px 16px;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
 #mostrar{
   display: none;
   font-size: 16px;
@@ -127,4 +109,21 @@ main {
 #passar_mouse:hover #mostrar{
   display:flex;
   justify-content: center;
+}
+
+/* link que ainda não foi acessado */
+a {
+  color: #000;
+}
+/* link que foi visitado */
+a:visited {
+   color: #555;
+}
+/* quando o ponteiro do mouse passa no link */
+a:hover {
+   color: #999;
+}
+/* quando o link for selecionado */
+a:active {
+   color: #333;
 }
