@@ -80,6 +80,7 @@ main {
   top:20px; left:10px; 
   width:50%; 
   float:left; 
+  font-size: 18px;
 }
 
 balao:before{ content:''; 
@@ -88,4 +89,5 @@ balao:before{ content:'';
   left:-10px; top:25px; 
   background:#cccccc; 
   transform:rotate(45deg); 
+  font-size: 14px;
 }
