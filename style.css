@@ -65,6 +65,7 @@ main {
 @media (max-width: 480px) {
   .container {
     width: 100vw;
+    balao: 
   }
 
   .panel:nth-of-type(4),
@@ -84,7 +85,7 @@ main {
   font-size: 19px;
 }
 
-balao:before{ content:''; 
+/*.balao:before{ content:''; 
   position: absolute; 
   width:20px; 
   height:20px; 
@@ -92,4 +93,8 @@ balao:before{ content:'';
   top:25px; 
   background:#cccccc; 
   transform:rotate(45deg); 
+}*/
+
+.final {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
