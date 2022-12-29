@@ -77,17 +77,19 @@ main {
 {background:#cccccc; 
   padding:15px; 
   position:relative; 
-  top:20px; left:10px; 
-  width:50%; 
+  top:20px; 
+  left:10px; 
+  width:40%; 
   float:left; 
-  font-size: 18px;
+  font-size: 19px;
 }
 
 balao:before{ content:''; 
   position: absolute; 
-  width:20px; height:20px; 
-  left:-10px; top:25px; 
+  width:20px; 
+  height:20px; 
+  left:-10px; 
+  top:25px; 
   background:#cccccc; 
   transform:rotate(45deg); 
-  font-size: 14px;
 }
