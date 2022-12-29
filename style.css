@@ -117,7 +117,7 @@ a {
 }
 /* link que foi visitado */
 a:visited {
-   color: #555;
+   color: rgb(18, 18, 18);
 }
 /* quando o ponteiro do mouse passa no link */
 a:hover {
