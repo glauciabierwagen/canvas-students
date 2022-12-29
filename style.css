@@ -72,3 +72,20 @@ main {
     display: none;
   }
 }
+
+.balao
+{background:#cccccc; 
+  padding:15px; 
+  position:relative; 
+  top:20px; left:10px; 
+  width:50%; 
+  float:left; 
+}
+
+balao:before{ content:''; 
+  position: absolute; 
+  width:20px; height:20px; 
+  left:-10px; top:25px; 
+  background:#cccccc; 
+  transform:rotate(45deg); 
+}
